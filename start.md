@@ -16,10 +16,6 @@
 ### What means HCL?
 - hashicorp configuration language, you can use this languange to declare reuseble configuration
 
-
-plan: "whats terraform do, before they do"
-apply:
-
 ### What is the Provider function? how many providers exists? 
 - Providers enable Terraform to work with virtually any platform or service with an accessible API.
 - HashiCorp and the Terraform community have already written thousands of providers to manage many different types of resources and services
