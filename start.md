@@ -10,15 +10,19 @@
 ### What problem terrraforms fix?
 - That really becomes the value. It’s really the versioning of it, the reusability of the code, and the ability to then do automation on top of it.
 
+
 ### In the scenario when, we "scale up to handle a load during a peak day, and then scale down at night to save on cost, because it’s not a fixed cost", uses Terraform is recommended?
 - Yes, of course.
+
 
 ### What means HCL?
 - hashicorp configuration language, you can use this languange to declare reuseble configuration
 
+
 ### What is the Provider function? how many providers exists? 
 - Providers enable Terraform to work with virtually any platform or service with an accessible API.
 - HashiCorp and the Terraform community have already written thousands of providers to manage many different types of resources and services
+
 
 ### Can you give examples of providers? and where que can find it?
 - You can find all publicly available providers on the Terraform Registry, including Amazon Web Services (AWS), Azure, Google Cloud Platform (GCP), Kubernetes, Helm, GitHub, Splunk, DataDog, and many more.
