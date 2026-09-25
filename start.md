@@ -32,3 +32,15 @@
 - Write: You define resources, which may be across multiple cloud providers and services. For example, you might create a configuration to deploy an application on virtual machines in a Virtual Private Cloud (VPC) network with security groups and a load balancer.
 - Plan: Terraform creates an execution plan describing the infrastructure it will create, update, or destroy based on the existing infrastructure and your configuration.
 - Apply: On approval, Terraform performs the proposed operations in the correct order, respecting any resource dependencies. For example, if you update the properties of a VPC and change the number of virtual machines in that VPC, Terraform will recreate the VPC before scaling the virtual machines.
+
+## Why terraform?
+- Terraform lets you define and manage your infrastructure in a consistent, repeatable way with easy configuration, reusability and versioning.
+
+## When you have existing infrastructure, how can Terraform connect to it?
+- You can find the provider in the TERRAFORM REGISTRY, where many providers are available, or, if necessary, you can also create your own provider. Terraform takes an immutable approach to infrastructure, reducing the complexity when managing, upgrading or modifying it.
+
+
+
+
+---
+- [To be continue](https://developer.hashicorp.com/terraform/intro#track-your-infrastructure)
